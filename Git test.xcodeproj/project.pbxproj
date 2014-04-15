@@ -21,6 +21,7 @@
 		A3F618F618FD63E300C143EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F618D818FD63E300C143EE /* UIKit.framework */; };
 		A3F618FE18FD63E300C143EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3F618FC18FD63E300C143EE /* InfoPlist.strings */; };
 		A3F6190018FD63E300C143EE /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F618FF18FD63E300C143EE /* Git_testTests.m */; };
+		A3F6190E18FD793600C143EE /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F6190D18FD793600C143EE /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A3F618FB18FD63E300C143EE /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		A3F618FD18FD63E300C143EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3F618FF18FD63E300C143EE /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		A3F6190C18FD793600C143EE /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A3F6190D18FD793600C143EE /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A3F618E618FD63E300C143EE /* Main.storyboard */,
 				A3F618E918FD63E300C143EE /* ViewController.h */,
 				A3F618EA18FD63E300C143EE /* ViewController.m */,
+				A3F6190C18FD793600C143EE /* Test.h */,
+				A3F6190D18FD793600C143EE /* Test.m */,
 				A3F618EC18FD63E300C143EE /* Images.xcassets */,
 				A3F618DB18FD63E300C143EE /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3F618EB18FD63E300C143EE /* ViewController.m in Sources */,
+				A3F6190E18FD793600C143EE /* Test.m in Sources */,
 				A3F618E518FD63E300C143EE /* AppDelegate.m in Sources */,
 				A3F618E118FD63E300C143EE /* main.m in Sources */,
 			);
